@@ -7,22 +7,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.tappi.tappi.LogInActivity">
+    tools:context="com.tappi.tappi.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/info"
-        android:layout_alignParentLeft="true"
+        android:text="New Text"
+        android:id="@+id/textViewBienvenida"
         android:layout_alignParentTop="true"
-        android:textSize="18sp"
-        />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp" />
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        />
+        android:text="Cerrar Sesion"
+        android:id="@+id/btncerrarsesion"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
