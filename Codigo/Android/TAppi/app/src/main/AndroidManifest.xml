@@ -28,7 +28,9 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".PrincipalPaciente"></activity>
+        <activity android:name=".PrincipalPaciente" />
+        <activity android:name=".datosBasicosRegistro" />
+        <activity android:name=".DatosGinecologico"></activity>
     </application>
 
 </manifest>

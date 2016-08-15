@@ -4,4 +4,30 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Generos">
+        <item> </item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="TipoSangre">
+        <item> </item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+
+    </string-array>
+
+    <string-array name="EPS">
+        <item> </item>
+        <item>Famisanar</item>
+        <item>Cafesalud</item>
+        <item>Nueva</item>
+        <item>Otra</item>
+    </string-array>
 </resources>
