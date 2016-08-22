@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Tappi" id="17869F5A-C990-4C7E-DBCB-9AED56B5992B" version="3.5">
+<createdBy>alvar</createdBy>
+<createdTime>2016-08-22 05:08:27 UTC</createdTime>
+<ownerDesignName>Tappi</ownerDesignName>
+<modelPersistence>2</modelPersistence>
+<capitalNames>false</capitalNames>
+<designId>17869F5A-C990-4C7E-DBCB-9AED56B5992B</designId>
+</OSDM_Design>
