@@ -14,9 +14,9 @@ public class PrincipalPaciente extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_principal_paciente);
-        nombreUsuario= (TextView) findViewById(R.id.textNombrePrincipal);
-        nombreUsuario.setText(getIntent().getExtras().getString("Nombre"));
-        Log.v("Nombre",getIntent().getExtras().getString("Nombre"));
+       // nombreUsuario= (TextView) findViewById(R.id.textNombrePrincipal);
+        //nombreUsuario.setText(getIntent().getExtras().getString("Nombre"));
+        //Log.v("Nombre",getIntent().getExtras().getString("Nombre"));
 
     }
 }

@@ -60,12 +60,12 @@ public class datosBasicosRegistro extends AppCompatActivity {
                         if(enviarDatos()){
                             if(selectGenero.getSelectedItemPosition()==1){
                                 Intent intent= new Intent(getApplicationContext(),PrincipalPaciente.class);
-                                intent.putExtra("Nombre",nombre.getText());
+                                //intent.putExtra("Nombre",nombre.getText());
                                 startActivity(intent);
                             }else{
                                 if(selectGenero.getSelectedItemPosition()==2){
                                     Intent intent= new Intent(getApplicationContext(),DatosGinecologico.class);
-                                    intent.putExtra("Nombre",nombre.getText());
+                                    //intent.putExtra("Nombre",nombre.getText());
                                     startActivity(intent);
                                 }else{
                                     Toast.makeText(datosBasicosRegistro.this,"Debe seleccionar un genero",Toast.LENGTH_LONG).show();
