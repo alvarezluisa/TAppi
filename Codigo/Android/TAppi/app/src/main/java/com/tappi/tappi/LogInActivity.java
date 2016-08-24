@@ -32,6 +32,7 @@ public class LogInActivity extends AppCompatActivity {
     private LoginButton loginButton;
     private CallbackManager callbackManager;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +59,7 @@ public class LogInActivity extends AppCompatActivity {
                             startActivity(intent);
                         }else{
                             Intent intent= new Intent(getApplicationContext(),datosBasicosRegistro.class);
+                            intent.putExtra("id",id);
                             startActivity(intent);
                         }
                     }

@@ -110,7 +110,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/TextNombre"
         android:layout_above="@+id/textView12"
         android:layout_toEndOf="@+id/textView16" />
 
@@ -119,43 +119,43 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:id="@+id/editText3"
+        android:id="@+id/TextApellido"
         android:layout_alignBottom="@+id/textView12"
         android:layout_alignParentEnd="true"
-        android:layout_alignStart="@+id/editText2" />
+        android:layout_alignStart="@+id/TextNombre" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText4"
+        android:id="@+id/TextCedula"
         android:layout_above="@+id/textView14"
-        android:layout_alignStart="@+id/editText3" />
+        android:layout_alignStart="@+id/TextApellido" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText5"
+        android:id="@+id/TextDireccion"
         android:layout_alignBottom="@+id/textView14"
-        android:layout_alignStart="@+id/editText4"
-        android:layout_alignEnd="@+id/editText4" />
+        android:layout_alignStart="@+id/TextCedula"
+        android:layout_alignEnd="@+id/TextCedula" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
-        android:id="@+id/editText6"
-        android:layout_below="@+id/editText5"
-        android:layout_alignStart="@+id/editText5" />
+        android:id="@+id/TextCorreo"
+        android:layout_below="@+id/TextDireccion"
+        android:layout_alignStart="@+id/TextDireccion" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="date"
         android:ems="10"
-        android:id="@+id/editText7"
+        android:id="@+id/TextFechaNacimiento"
         android:layout_alignBottom="@+id/textView16"
         android:layout_toEndOf="@+id/textView16" />
 
@@ -165,26 +165,26 @@
         android:id="@+id/selectGenero"
         android:layout_above="@+id/textView18"
         android:entries="@array/Generos"
-        android:layout_alignEnd="@+id/editText7"
+        android:layout_alignEnd="@+id/TextFechaNacimiento"
         android:layout_toEndOf="@+id/textView16" />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner2"
+        android:id="@+id/SelectSangre"
         android:layout_alignBottom="@+id/textView18"
-        android:layout_alignStart="@+id/spinner"
+        android:layout_alignStart="@+id/selectGenero"
         android:entries="@array/TipoSangre"
-        android:layout_alignEnd="@+id/editText7" />
+        android:layout_alignEnd="@+id/TextFechaNacimiento" />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/spinner3"
+        android:id="@+id/SelectEPS"
         android:layout_alignTop="@+id/textView19"
-        android:layout_alignStart="@+id/spinner2"
+        android:layout_alignStart="@+id/SelectSangre"
         android:entries="@array/EPS"
-        android:layout_alignEnd="@+id/spinner2" />
+        android:layout_alignEnd="@+id/SelectSangre" />
 
     <Button
         android:layout_width="wrap_content"
