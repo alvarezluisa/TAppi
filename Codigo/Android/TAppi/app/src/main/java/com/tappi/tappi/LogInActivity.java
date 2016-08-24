@@ -15,6 +15,16 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.Arrays;
 
 public class LogInActivity extends AppCompatActivity {
@@ -36,8 +46,25 @@ public class LogInActivity extends AppCompatActivity {
         LoginManager.getInstance().registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                Intent intent= new Intent(getApplicationContext(),datosBasicosRegistro.class);
-                startActivity(intent);
+                Log.v("login","ingreso con facebook");
+                final String id= loginResult.getAccessToken().getUserId();
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Log.v("WS","Entro al hilo");
+
+                        if(conexion(id)){
+                            Intent intent= new Intent(getApplicationContext(),PrincipalPaciente.class);
+                            startActivity(intent);
+                        }else{
+                            Intent intent= new Intent(getApplicationContext(),datosBasicosRegistro.class);
+                            startActivity(intent);
+                        }
+                    }
+                }
+
+                ).start();
+
             }
 
             @Override
@@ -73,6 +100,59 @@ public class LogInActivity extends AppCompatActivity {
         });*/
 
     }
+
+    public boolean conexion(String nombre){
+        Log.v("WS","Entro al hilo");
+        StringBuilder resul = obtenerDatos(nombre);
+
+        String resultado = resul.toString();
+
+        try {
+            JSONArray objetos = new JSONArray(resultado);
+
+
+            if(objetos.length()==0){
+                return false;
+            }
+            else{
+                return true;
+            }
+        } catch (JSONException e) {
+            Log.v("WS",e.getMessage());
+        }
+
+        return false;
+    }
+
+    private StringBuilder obtenerDatos(String nombre) {
+        URL url = null;
+        String linea = "";
+        int respuesta = 0;
+        StringBuilder resul = new StringBuilder();
+
+        try {
+            url = new URL("http://192.168.0.2:8080/test.php?usu=" + nombre);
+            Log.v("WS","creo URL");
+            HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
+            Log.v("WS","abrio conexion");
+
+            respuesta = conexion.getResponseCode();
+            Log.v("WS","tiene respuesta");
+
+            if (respuesta == HttpURLConnection.HTTP_OK) {
+                InputStream in = new BufferedInputStream(conexion.getInputStream());
+                BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+
+                while ((linea = reader.readLine()) != null) {
+                    resul.append(linea);
+                }
+            }
+        } catch (Exception e) {
+            Log.v("WS", e.getMessage());
+        }
+        return resul;
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
