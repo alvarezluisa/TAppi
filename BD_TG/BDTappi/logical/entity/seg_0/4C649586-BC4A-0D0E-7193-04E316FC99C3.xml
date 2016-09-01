@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C649586-BC4A-0D0E-7193-04E316FC99C3" name="NIVELURGENCIA">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-31 03:32:13 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDSINTOMA" id="5C3B52A5-E732-6C36-BA04-D90D78D59336">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-31 03:34:36 UTC</createdTime>
+<generatorID>A49F8FE4-D2E9-408B-2C06-17A5953B8C01</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<referedAttribute>CF8A7A1B-43F1-26F2-18E8-6E0DD40C3FF2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDTRIAGE" id="BBD1C830-D5BE-68CF-38FC-6D1A47FDD128">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-31 03:36:28 UTC</createdTime>
+<generatorID>8BAEBB0B-B22B-DA92-5145-7CABC9FC0EA9</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<referedAttribute>40B5E256-A951-28A8-CECE-47CA1338489B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRESENCIA" id="BCCD6F00-4937-36F3-9BC3-BFDE6373342A">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-31 03:33:31 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACDB1704-003C-2655-E43F-3BC6BA642310" name="ARBOLTRIAGE PK">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-31 03:34:36 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C3B52A5-E732-6C36-BA04-D90D78D59336</attributeRef>
+<attributeRef>BBD1C830-D5BE-68CF-38FC-6D1A47FDD128</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

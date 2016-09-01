@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A448C02C-0D66-4513-3B81-3D1FBC9FE055" name="ANTECEDENTE">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>F24B5C35-50B7-1C15-F08F-841922A4D1F9</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDANTECEDENTE" id="E1E1C04B-F64C-2F94-2D10-C91AC7971C0D">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>A2C0707C-42E6-5A13-C08D-DB8974C826AC</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="A2B5E910-CD8D-9080-AD35-EA579F529C16">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>0055B274-4BCE-4DB9-CE4C-87A0D3B20F3F</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7149D31C-B097-E408-CE66-669BEA3F29D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="2632F8A1-F1CA-3E61-4D21-A31A8D7160B6">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>AD3CB68E-0FC9-E139-D1DD-9DD5A6C4B5F4</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFE1A973-6CD3-D4C3-1873-25695F65741F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D7C0942-5AEB-501C-7043-E1619CEC99F1" name="ANTECEDENTE_PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>822FAACC-C254-C9F5-6C7D-1559F83B2702</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1E1C04B-F64C-2F94-2D10-C91AC7971C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

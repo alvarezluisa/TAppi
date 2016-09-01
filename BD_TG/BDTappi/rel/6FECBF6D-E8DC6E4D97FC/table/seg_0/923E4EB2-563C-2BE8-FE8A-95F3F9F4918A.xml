@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="923E4EB2-563C-2BE8-FE8A-95F3F9F4918A" name="USUARIO">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>546AED21-CDD0-81CD-B9BB-1AB2795BC3CC</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDUSUARIO" id="396B7C65-A60D-8158-07C8-D468DC7A7E9A">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>DD1B12D6-5143-C54E-68FD-256090F4BBAC</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDFACEGOO" id="5B640B87-6890-17C1-AE75-654D054F8EB0">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>22A18245-4073-F559-EAF6-5BE43B9193F2</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="289D20F7-3F41-AF40-60BA-208C40CAA494">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>0A4D44E7-777E-207E-8AA7-809E1D7FC8B6</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEDULA" id="B37FBC7E-64C1-13CD-9078-745A2E3FE559">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>5E2824D8-DD3B-3E55-19B4-3D5F99875A84</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="24B720D9-502F-E04C-5535-D635896B9A83">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>B718E9C8-DDD1-4D3E-111A-3CFC3C2057A3</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="087A443D-E689-03E3-014F-16BFD40C7FE7">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>8D47AF4F-84A1-92B3-1619-B1194F988345</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHANACIMIENTO" id="CC950A13-EA14-ADB5-58F0-5415CE6FDE37">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>A63AA9F8-3ABF-0D5C-AEF3-53F0BE484BD8</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="5424BF7F-D4C6-451C-4703-C59EBF9B5B44">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>A0152FD3-4294-C725-B240-EA44C3ED7346</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>B2FCE7B7-D392-5DBE-7A64-0DFFD072AAEA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="CD0525FE-6D71-23F0-B846-D3FC92786131">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>6EBBD0CA-6AC8-4C90-AF62-09211230029E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROL" id="44D88E23-C67B-E404-8C3F-5DF4F3B0A46C">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>0917D7AE-EC6D-9FF9-DECD-3535DE66DF1E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFE1A973-6CD3-D4C3-1873-25695F65741F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPOSANGRE" id="A1AAD9F2-0720-3FE6-B2C3-381F0E6D29BC">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>F27B7865-31E4-B322-2D20-52C07C5D4A10</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPS" id="A6B2B2FD-3E54-C387-C422-8DF86A015C2D">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>350F34E8-0596-064C-9137-2421FA642761</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B865721-69A0-9DB4-2EAE-5558CC564DEF" name="USUARIO_PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>F9FC10FB-7FD6-E364-3EB2-042008C83BEC</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="396B7C65-A60D-8158-07C8-D468DC7A7E9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFED43C1-30F3-FA33-7088-751BE9244B8B" name="USUARIO_CEDULA_UN">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>C68A8FBD-E74D-F56B-45E0-A73C759251FA</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B37FBC7E-64C1-13CD-9078-745A2E3FE559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

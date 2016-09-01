@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFDC4584-208F-0CCB-8558-53FB79870AB7" name="SINTOMASXHISTORIA">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>A0291FC4-7E32-17C8-B376-B58AFE23C8B4</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FECHA" id="FB20A22E-A191-5ABC-66DA-91CDE3C21F26">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>754F0B7E-3E13-3DDB-27FB-F2BD02AA35E6</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HISTORIACLINICA_IDHC" id="3D467B75-A19A-F624-A50A-73B341258278">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>51BACFE0-A86C-35D2-41BA-020BC982259F</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="769FFE7C-3620-C15D-D300-7DF6E7D46527" referredColumn="F1CA36D7-5A22-E6C5-7FAC-537E03BB39E9"/>
+</associations>
+</Column>
+<Column name="SINTOMA_IDSINTOMA" id="CA78C8C4-3A3F-4326-5CE6-95E830903ACB">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>72BAEC93-25E6-E6B7-8A17-CE059CA3F531</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8FDA2DB-A670-B6F7-B05C-0F07AE36AF82" referredColumn="930DB445-B02B-FBAD-B7DD-377381F012B6"/>
+</associations>
+</Column>
+<Column name="PRESENCIA" id="10ABA6F0-6291-87D7-D07E-E7935A1C2CCB">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>AD1B8C5E-9626-CECC-B1D6-1E11A450506F</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F140E09C-07F0-6B3A-4141-DF38B2BDEE87" name="SINTOMASXHISTORIA_PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>EDB85F4A-40B3-86D3-BD62-AB04575B8715</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D467B75-A19A-F624-A50A-73B341258278"/>
+<colUsage columnID="CA78C8C4-3A3F-4326-5CE6-95E830903ACB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9EBD1AD-03DE-AE9E-4649-6B983CCA5D44" name="SINTOMASXHISTORIA_S_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>29176601-ED11-089D-C837-10D89B35D364</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA78C8C4-3A3F-4326-5CE6-95E830903ACB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5D55B7E-41CD-1DF8-80C9-B5B4081F0656" name="SINTOMASXHISTORIA_HC_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>1A57154A-6F23-19F9-C1B4-F3ACC968C59A</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D467B75-A19A-F624-A50A-73B341258278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

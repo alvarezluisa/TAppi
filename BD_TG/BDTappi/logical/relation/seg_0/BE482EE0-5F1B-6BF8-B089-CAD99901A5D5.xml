@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GINECOLOGICO_USUARIO_FK" directorySegmentName="seg_0" id="BE482EE0-5F1B-6BF8-B089-CAD99901A5D5">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>672C5396-5F4D-3F95-9BB8-4F4EC2AB5591</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="5903C5CF-872D-6691-B107-06EC5EDF0598" value="true"/>
+</engineerTo>
+<sourcePk>F9FC10FB-7FD6-E364-3EB2-042008C83BEC</sourcePk>
+<dominantRole>546AED21-CDD0-81CD-B9BB-1AB2795BC3CC</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>546AED21-CDD0-81CD-B9BB-1AB2795BC3CC</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>54F9BDE3-187E-BE11-46CC-0D024D707DA0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

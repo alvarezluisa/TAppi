@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARBOLTRIAGESINTOMA" directorySegmentName="seg_0" id="A49F8FE4-D2E9-408B-2C06-17A5953B8C01">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-31 03:34:36 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="5903C5CF-872D-6691-B107-06EC5EDF0598" value="true"/>
+</engineerTo>
+<sourcePk>89F17D0B-6553-29E4-3553-2C3E1DAA88B5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8F6DE44-C926-63C9-B98C-9A03E33F0239</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C649586-BC4A-0D0E-7193-04E316FC99C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

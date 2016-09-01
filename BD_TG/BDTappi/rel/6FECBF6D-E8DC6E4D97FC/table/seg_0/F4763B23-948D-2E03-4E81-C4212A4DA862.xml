@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4763B23-948D-2E03-4E81-C4212A4DA862" name="TRIAGE">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>7F164219-1C36-B99B-0774-322F35488E1A</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDTRIAGE" id="55733892-FE5A-BD4B-400F-7B151D5755B1">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>40B5E256-A951-28A8-CECE-47CA1338489B</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVELTRIAGE" id="63F87C31-02E4-C343-1259-BF8C28551813">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>089E3AF0-512A-5C65-A9E5-D103820E488E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DX" id="F356EF60-2212-028C-29BF-1FFA541B0846">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>DB806989-7AE9-6264-1D50-945787852C5B</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2EF4721-689B-99A8-5E3E-398D51201419" name="TRIAGE_PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>348609F5-E2CB-1266-F72D-A70ED4B729AF</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55733892-FE5A-BD4B-400F-7B151D5755B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

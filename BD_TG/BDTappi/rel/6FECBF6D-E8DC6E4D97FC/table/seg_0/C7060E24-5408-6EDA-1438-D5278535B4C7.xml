@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7060E24-5408-6EDA-1438-D5278535B4C7" name="HISTORIACLINICA">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>3A9F0E19-D76B-1A87-509A-A5A2264BD9FD</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDHISTORIACLINICA" id="F1CA36D7-5A22-E6C5-7FAC-537E03BB39E9">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>1571E3EC-F80C-8DCC-1448-35D97C5624DF</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIONMOTIVOURGENCIA" id="585AE017-208D-2525-404A-9DAFD0435C8D">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>8491B2A7-E329-345B-C0CE-26ADCEECD88A</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BC2CDDCD-4F44-4844-F181-432FCAA63024</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INICIOMOTIVOURGENCIA" id="300B67B1-94EA-F6F9-C7B3-8BECC7B1DD9F">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>286FFB67-E2A3-5E43-D386-C49DA9E253C5</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_IDUSUARIO" id="E1C54CC0-CE9E-B39E-104C-7392286B7116">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>7FB827CE-DC06-1C6D-818E-13602646D97F</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61A0E589-548C-3636-C90A-80A52AE22A82" referredColumn="396B7C65-A60D-8158-07C8-D468DC7A7E9A"/>
+</associations>
+</Column>
+<Column name="FECHA" id="48E474BE-F4C3-9108-80A9-796E27B7314A">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>9797C9F8-2E09-1EEF-2629-7247B184BF72</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DE498D6-7912-303F-7E9D-2D13FCB4DEEB" name="HISTORIACLINICA_PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>93AF3109-6773-7A16-84B0-8B5CB6ED2F9B</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1CA36D7-5A22-E6C5-7FAC-537E03BB39E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F831AC15-8B76-EE8C-B01F-E38EDC6EEBD3" name="HISTORIACLINICA_U_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>1D634E76-5320-6862-5FEA-3ECF7217A7A3</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1C54CC0-CE9E-B39E-104C-7392286B7116"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

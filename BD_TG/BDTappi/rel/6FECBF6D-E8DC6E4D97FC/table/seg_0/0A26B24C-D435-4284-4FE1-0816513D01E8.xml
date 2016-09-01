@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A26B24C-D435-4284-4FE1-0816513D01E8" name="USUARIOXANTECEDENTE">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>267CC63A-94BC-74AE-6A79-4E6468EB288F</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_IDUSUARIO" id="149F1258-80C1-7AC8-C695-E51E1E59F7BA">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>B87A5B54-660D-BD05-7861-454F27F0ACCB</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30B4E372-13F4-D14D-B330-C7620E5A4866" referredColumn="396B7C65-A60D-8158-07C8-D468DC7A7E9A"/>
+</associations>
+</Column>
+<Column name="ANTECEDENTE_IDANTECEDENTE" id="CED92810-DD9F-F3DA-6DE3-A3DC2B9C0A8F">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>DDEC2C30-7AB5-0D75-A994-823B08688746</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29E6D110-A846-346F-03B1-AE3F901D3D65" referredColumn="E1E1C04B-F64C-2F94-2D10-C91AC7971C0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5356F5BA-AED2-7646-06E0-2CB1FC536431" name="USUARIOXANTECEDENTE_PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>8E4762A9-DEFA-CC08-BD30-C27236B64699</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149F1258-80C1-7AC8-C695-E51E1E59F7BA"/>
+<colUsage columnID="CED92810-DD9F-F3DA-6DE3-A3DC2B9C0A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FF92FF8-1C6C-1E0D-2A8D-8CED94EFDE4C" name="USUARIOXANTECEDENTE_U_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>4B64D57A-8489-628F-345D-4DD6AF8B928E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149F1258-80C1-7AC8-C695-E51E1E59F7BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40F3E7C6-5A00-B771-4FDF-4621F0C359A0" name="USUARIOXANTECEDENTE_A_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>A011B4D3-DAAF-34A8-3E42-9DA84F63C133</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CED92810-DD9F-F3DA-6DE3-A3DC2B9C0A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

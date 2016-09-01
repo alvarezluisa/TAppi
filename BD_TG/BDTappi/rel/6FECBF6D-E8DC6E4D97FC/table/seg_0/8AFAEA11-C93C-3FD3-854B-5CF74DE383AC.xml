@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AFAEA11-C93C-3FD3-854B-5CF74DE383AC" name="NIVELURGENCIA">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>4C649586-BC4A-0D0E-7193-04E316FC99C3</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SINTOMA_IDSINTOMA" id="AD0C9A8F-6EDB-81C1-938C-A02C8215B9D9">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>5C3B52A5-E732-6C36-BA04-D90D78D59336</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F3AB718-D24E-365D-9044-08C3C4B67E59" referredColumn="930DB445-B02B-FBAD-B7DD-377381F012B6"/>
+</associations>
+</Column>
+<Column name="TRIAGE_IDTRIAGE" id="443EA567-B33E-4B1C-F4B3-A5840B361EE9">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>BBD1C830-D5BE-68CF-38FC-6D1A47FDD128</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D64FE25-45BF-0D63-FFC0-6364829F1E33" referredColumn="55733892-FE5A-BD4B-400F-7B151D5755B1"/>
+</associations>
+</Column>
+<Column name="PRESENCIA" id="8F066509-EDAD-06F0-DEC2-B70D4A84A755">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>BCCD6F00-4937-36F3-9BC3-BFDE6373342A</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7ADF155C-62E0-F17A-8235-19B8BF05036C" name="NIVELURGENCIA_PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>ACDB1704-003C-2655-E43F-3BC6BA642310</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD0C9A8F-6EDB-81C1-938C-A02C8215B9D9"/>
+<colUsage columnID="443EA567-B33E-4B1C-F4B3-A5840B361EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="096E327D-BC0D-212C-3345-D925498071D2" name="NIVELURGENCIA_SINTOMA_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>A49F8FE4-D2E9-408B-2C06-17A5953B8C01</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD0C9A8F-6EDB-81C1-938C-A02C8215B9D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09C069D0-A58E-580C-3E06-9DA731C7751B" name="NIVELURGENCIA_TRIAGE_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>8BAEBB0B-B22B-DA92-5145-7CABC9FC0EA9</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="443EA567-B33E-4B1C-F4B3-A5840B361EE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F3AB718-D24E-365D-9044-08C3C4B67E59" containerWithKeyObject="8AFAEA11-C93C-3FD3-854B-5CF74DE383AC" localFKIndex="096E327D-BC0D-212C-3345-D925498071D2" name="NIVELURGENCIA_SINTOMA_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:06:22 UTC</createdTime>
+<generatorID>A49F8FE4-D2E9-408B-2C06-17A5953B8C01</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>815DAAAA-2B2F-E1E9-03BC-EBF15B60DF0C</referredTableID>
+<keyObject>3624284D-2432-2BD1-D82D-B99B6C63F0ED</keyObject>
+<referredKeyID>3624284D-2432-2BD1-D82D-B99B6C63F0ED</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

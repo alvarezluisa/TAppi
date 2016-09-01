@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="546AED21-CDD0-81CD-B9BB-1AB2795BC3CC" name="USUARIO">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>36630C74-39A7-CCC9-5EE5-3625D1DF5728</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDUSUARIO" id="DD1B12D6-5143-C54E-68FD-256090F4BBAC">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>9CD02958-31CE-3D7D-A825-F07B67908B34</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDFACEGOO" id="22A18245-4073-F559-EAF6-5BE43B9193F2">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-01 02:00:59 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="0A4D44E7-777E-207E-8AA7-809E1D7FC8B6">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>99BBE7E6-8016-2377-47A2-CC293AFA8E0B</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CEDULA" id="5E2824D8-DD3B-3E55-19B4-3D5F99875A84">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>ACB2D1A2-F94F-EF4E-3632-E4DEC9B99B58</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO" id="B718E9C8-DDD1-4D3E-111A-3CFC3C2057A3">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>E9F20B59-2869-3BE7-8894-8B86B6E861CE</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="8D47AF4F-84A1-92B3-1619-B1194F988345">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>AF21622A-C773-E015-52E5-77FFF8F50408</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHANACIMIENTO" id="A63AA9F8-3ABF-0D5C-AEF3-53F0BE484BD8">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>28626B55-7CA4-681C-F2E8-4CAAB4861E35</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="A0152FD3-4294-C725-B240-EA44C3ED7346">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>79A27E59-6F5B-327A-1DD5-89BE7EAFFDB5</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>B2FCE7B7-D392-5DBE-7A64-0DFFD072AAEA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="6EBBD0CA-6AC8-4C90-AF62-09211230029E">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>81DCFE72-90CE-FDAF-CFFC-F455E0697F14</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROL" id="0917D7AE-EC6D-9FF9-DECD-3535DE66DF1E">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>E9113F4D-75EA-D70B-9802-B160D1D80996</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFE1A973-6CD3-D4C3-1873-25695F65741F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPOSANGRE" id="F27B7865-31E4-B322-2D20-52C07C5D4A10">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>8438362F-1DCA-B9C5-DB6B-3D673713CD73</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EPS" id="350F34E8-0596-064C-9137-2421FA642761">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>FD1523F2-12AD-EFB2-8443-A41BA007EEE2</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>884491CB-97AA-40ED-FD4C-D0F0262F1C2E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9FC10FB-7FD6-E364-3EB2-042008C83BEC" name="USUARIO PK">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>BCB46113-E494-597A-6706-4B3B6B3E98AA</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD1B12D6-5143-C54E-68FD-256090F4BBAC</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C68A8FBD-E74D-F56B-45E0-A73C759251FA" name="USUARIO UK1">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>63B8AAA5-06E6-8B62-AE06-8BEA62C2C97E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="6FECBF6D-389A-6153-8850-E8DC6E4D97FC" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>5E2824D8-DD3B-3E55-19B4-3D5F99875A84</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
