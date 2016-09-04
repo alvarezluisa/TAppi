@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HISTORIACLINICA_USUARIO_FK" directorySegmentName="seg_0" id="1D634E76-5320-6862-5FEA-3ECF7217A7A3">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>880C0F73-38C4-DCDF-82B7-3FEBBB384E09</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="5903C5CF-872D-6691-B107-06EC5EDF0598" value="true"/>
+</engineerTo>
+<sourcePk>F9FC10FB-7FD6-E364-3EB2-042008C83BEC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>546AED21-CDD0-81CD-B9BB-1AB2795BC3CC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3A9F0E19-D76B-1A87-509A-A5A2264BD9FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

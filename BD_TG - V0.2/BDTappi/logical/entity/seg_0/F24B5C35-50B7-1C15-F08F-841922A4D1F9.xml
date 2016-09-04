@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F24B5C35-50B7-1C15-F08F-841922A4D1F9" name="ANTECEDENTE">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>4A654515-4AF0-DA27-3BA9-CCD749D5D081</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDANTECEDENTE" id="A2C0707C-42E6-5A13-C08D-DB8974C826AC">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>97CF8774-C151-3757-DBC5-02CE11A448D1</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="0055B274-4BCE-4DB9-CE4C-87A0D3B20F3F">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>B2A0C295-580E-B389-E811-88685A75875E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7149D31C-B097-E408-CE66-669BEA3F29D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="AD3CB68E-0FC9-E139-D1DD-9DD5A6C4B5F4">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>F90E982B-6A4A-220D-0F2D-00BA1FDBF95C</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFE1A973-6CD3-D4C3-1873-25695F65741F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="822FAACC-C254-C9F5-6C7D-1559F83B2702" name="ANTECEDENTE PK">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>EF861F29-73C4-B05B-53F6-25660046CFC9</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2C0707C-42E6-5A13-C08D-DB8974C826AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ANTECEDENTE" directorySegmentName="seg_0" id="9FEF4442-C596-9733-F1A2-D30637A9B9D8">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IDANTECEDENTE" id="185A6597-2BDE-679E-A708-FEDD8147150B">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO" id="BAA82DCB-D7A6-FF94-CB64-CCC251FEE09B">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="CB8513FB-3C4B-02A2-E968-C8F73BD8D5B4">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ANTECEDENTE_PK" id="57D144B5-9094-8BF9-0046-BF4E9B85F0E9">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

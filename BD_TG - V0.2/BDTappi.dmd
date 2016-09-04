@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BDTappi" id="F892316C-21D5-5A69-D613-45FEC2199DD0" version="3.5">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 17:50:56 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F892316C-21D5-5A69-D613-45FEC2199DD0</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AD7D3483-9E83-B6AC-BCAE-F24C2E7AB7A1">
+<designStoragePath>C:\scriptbdtappi</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3E907F45-F35F-F9B2-B747-610ECF810C0A">
+<designStoragePath>C:\scriptbdtappi</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="16C8E6A1-34D1-533E-2115-F1F66EFC270C">
+<designStoragePath>C:\bd</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F18A5563-F369-B6F8-9CD4-A8D4BF0D1CC2">
+<designStoragePath>C:\bd</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

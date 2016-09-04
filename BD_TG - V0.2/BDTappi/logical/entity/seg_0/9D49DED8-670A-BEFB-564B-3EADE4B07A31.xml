@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D49DED8-670A-BEFB-564B-3EADE4B07A31" name="HISTORIACLINICAv1">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>827BA7BD-3F98-7711-494A-A66759D96CE0</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDHISTORIACLINICA" id="98BE5276-C2C8-B71A-D70D-412ACA9D47B5">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>EE0B6695-2087-23E0-7FFA-D6856039AFCE</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCIONMOTIVOURGENCIA" id="88C042D1-E197-B8E9-2188-D323A0715513">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>C7CF0BD1-A503-1F73-D2FA-F1C48D0C0BCF</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BC2CDDCD-4F44-4844-F181-432FCAA63024</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INICIOMOTIVOURGENCIA" id="980AA34D-3626-82F3-D653-C434A2A61F1E">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>36D6778A-7F55-ED18-A248-7375BAE8D715</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUARIO IDUSUARIO" id="D8C36278-6885-ED63-F84B-F0BDD12DB28C">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>1540D477-F63D-DD53-2ED3-6ED9EEF764B6</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<referedAttribute>6D52D544-E0B4-571C-352B-B0389AC3845B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="594079ED-E8D1-9F25-DAAC-9FD335F942A4">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>D48977D3-A7E8-7C0B-46EA-A5C7648BE984</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C75DD42-AC7F-5EF5-EABB-EF01FA5C2BA3" name="HISTORIACLINICA PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>DEC0D01D-D6A1-BA02-69DD-FE591E5419C7</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>98BE5276-C2C8-B71A-D70D-412ACA9D47B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

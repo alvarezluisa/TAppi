@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="267CC63A-94BC-74AE-6A79-4E6468EB288F" name="USUARIOXANTECEDENTE">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>EA995F95-F7C1-8C47-FB80-7088148E4A51</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDUSUAIRO" id="B87A5B54-660D-BD05-7861-454F27F0ACCB">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>4B64D57A-8489-628F-345D-4DD6AF8B928E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<referedAttribute>DD1B12D6-5143-C54E-68FD-256090F4BBAC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDANTECEDENTE" id="DDEC2C30-7AB5-0D75-A994-823B08688746">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>A011B4D3-DAAF-34A8-3E42-9DA84F63C133</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<referedAttribute>A2C0707C-42E6-5A13-C08D-DB8974C826AC</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E4762A9-DEFA-CC08-BD30-C27236B64699" name="USUARIOXANTECEDENTE PK">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-30 18:04:57 UTC</createdTime>
+<generatorID>0E27FFEB-581B-8878-E196-F38AD93F751E</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B87A5B54-660D-BD05-7861-454F27F0ACCB</attributeRef>
+<attributeRef>DDEC2C30-7AB5-0D75-A994-823B08688746</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

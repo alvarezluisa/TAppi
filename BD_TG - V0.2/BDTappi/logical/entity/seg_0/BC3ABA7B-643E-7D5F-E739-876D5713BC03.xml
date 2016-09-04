@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC3ABA7B-643E-7D5F-E739-876D5713BC03" name="SINTOMASXHISTORIAv1">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>D475EF82-D6CD-DBF4-AD95-AD6F992D1C6A</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA" id="393865F1-BC68-B201-17FF-F8F0C9BB5F8E">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>B437E377-5259-06A3-774C-8AB5F0FD8855</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>FFF528CC-691B-7A53-CCE1-54C75A25FE61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HISTORIACLINICA IDHC" id="EE68A087-1038-B520-A52C-86ECBD467985">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>C9CF45D8-C435-44E8-5997-50D9E2E26487</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<referedAttribute>98BE5276-C2C8-B71A-D70D-412ACA9D47B5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SINTOMA IDSINTOMA" id="EF29B3B0-F5FD-7FC6-0EA6-EFD6D4B56DBD">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>B10C7AD5-A8DA-8B33-13E4-376EEDDB17CF</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<referedAttribute>39EFF6FB-3684-144A-870B-C1AEEC151DE6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRESENCIA" id="3C2B66D9-2055-1EFB-5EEC-0C3CDCC9867C">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>5B0064C0-2498-0C94-E0BD-E94A2DDB1B04</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13B6C838-8BA5-F7E7-F546-7A760B61D362</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CA1D12B-09AD-3356-1786-809FFE57D625" name="SINTOMASXHISTORIA PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>97580C42-BB8E-E9F9-CD8D-9B4C2B27A4F8</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE68A087-1038-B520-A52C-86ECBD467985</attributeRef>
+<attributeRef>EF29B3B0-F5FD-7FC6-0EA6-EFD6D4B56DBD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

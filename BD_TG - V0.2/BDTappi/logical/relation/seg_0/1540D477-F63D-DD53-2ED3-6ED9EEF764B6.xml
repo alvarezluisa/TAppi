@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HISTORIACLINICA_U_FK" directorySegmentName="seg_0" id="1540D477-F63D-DD53-2ED3-6ED9EEF764B6">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:04 UTC</createdTime>
+<generatorID>E5E0DA45-C189-2FE2-9EE9-88A5714FF18A</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<sourcePk>052DEAFF-639D-39C7-A82C-F81F9A28E0D0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>312A3259-B3AB-F3A5-F720-D31DFFF736E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9D49DED8-670A-BEFB-564B-3EADE4B07A31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

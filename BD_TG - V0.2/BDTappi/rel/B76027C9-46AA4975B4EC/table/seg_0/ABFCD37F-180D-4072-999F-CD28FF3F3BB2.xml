@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABFCD37F-180D-4072-999F-CD28FF3F3BB2" name="LINEASEMERGENCIA">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>3468C7EF-ED0D-C335-3650-49A5046D34F6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDLINEASEMERGENCIA" id="FF248C84-AAB0-75FF-5F1B-796568D38E24">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>469C5B63-11DC-64B4-83E0-C27E832F88AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="6F6FD218-8E76-B56B-8712-24B54F5B4223">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>9F8AEF44-ECB2-39E9-EC2A-CF7A84701398</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5A1914BE-B4C3-15E1-A0A1-D1E8C6ECAE0E">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>98ACED67-6D93-E953-CD2D-57742F53DE52</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BFE1A973-6CD3-D4C3-1873-25695F65741F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB941035-AEF8-DAB5-9743-0106A77E92B9" name="LINEASEMERGENCIA_PK">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>6172B853-152B-4617-F644-8C765F82668F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF248C84-AAB0-75FF-5F1B-796568D38E24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

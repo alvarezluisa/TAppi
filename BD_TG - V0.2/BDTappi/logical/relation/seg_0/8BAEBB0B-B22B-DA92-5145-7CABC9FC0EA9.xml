@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRIAGEARBOLTRIAGE" directorySegmentName="seg_0" id="8BAEBB0B-B22B-DA92-5145-7CABC9FC0EA9">
+<createdBy>Luisa</createdBy>
+<createdTime>2016-08-31 03:34:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="5903C5CF-872D-6691-B107-06EC5EDF0598" value="true"/>
+</engineerTo>
+<sourcePk>348609F5-E2CB-1266-F72D-A70ED4B729AF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F164219-1C36-B99B-0774-322F35488E1A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4C649586-BC4A-0D0E-7193-04E316FC99C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

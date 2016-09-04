@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LINEASEMERGENCIA" directorySegmentName="seg_0" id="ABFCD37F-180D-4072-999F-CD28FF3F3BB2">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRIPCION" id="5A1914BE-B4C3-15E1-A0A1-D1E8C6ECAE0E">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO" id="6F6FD218-8E76-B56B-8712-24B54F5B4223">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDLINEASEMERGENCIA" id="FF248C84-AAB0-75FF-5F1B-796568D38E24">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LINEASEMERGENCIA_PK" id="EB941035-AEF8-DAB5-9743-0106A77E92B9">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

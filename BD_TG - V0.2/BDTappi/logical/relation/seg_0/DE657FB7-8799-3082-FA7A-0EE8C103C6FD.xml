@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NIVELURGENCIA_SINTOMA_FK" directorySegmentName="seg_0" id="DE657FB7-8799-3082-FA7A-0EE8C103C6FD">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:04 UTC</createdTime>
+<generatorID>08224C66-964A-FC11-452E-0BA94DC5C89B</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<sourcePk>527EB7AA-D652-2D62-24F2-E9350C9757B7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>44209B81-EF7B-48FC-58A7-0A198D64311B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4320371A-2C22-F02E-CAF4-9B8E541A065D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

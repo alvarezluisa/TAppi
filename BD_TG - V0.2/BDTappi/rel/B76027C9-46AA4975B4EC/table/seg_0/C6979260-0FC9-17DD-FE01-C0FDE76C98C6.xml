@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6979260-0FC9-17DD-FE01-C0FDE76C98C6" name="USUARIOXANTECEDENTE">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>7C9B3BF7-BA3D-95CE-CE29-64E9C46F2642</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_IDUSUARIO" id="38A0BDA1-912F-2D8A-9EF7-1E26A612F563">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>4ACD64B5-8211-E173-E120-1E2E1D3ACC9E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BADB1C7-0276-503C-8973-DAB04EC52F63" referredColumn="7CF61D91-BCA5-BC80-E284-83FB5AC993BB"/>
+</associations>
+</Column>
+<Column name="ANTECEDENTE_IDANTECEDENTE" id="84F95641-7AEF-5A74-4E46-6F325C70EE01">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>84E29215-D40D-D37D-A325-35F5ACFC1B9C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30B733D2-4F67-BF46-EB6E-04817937E774" referredColumn="185A6597-2BDE-679E-A708-FEDD8147150B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="745C4CCC-56F5-CA92-F301-3BE2DC8A71D6" name="USUARIOXANTECEDENTE_PK">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>CDC5E846-8784-8810-9D6E-0245233D327E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38A0BDA1-912F-2D8A-9EF7-1E26A612F563"/>
+<colUsage columnID="84F95641-7AEF-5A74-4E46-6F325C70EE01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0F61A44-4C72-E32E-D6E3-A7883C051D60" name="USUARIOXANTECEDENTE_A_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84F95641-7AEF-5A74-4E46-6F325C70EE01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32C31191-CBD2-43B0-203A-E7FFED1C9818" name="USUARIOXANTECEDENTE_U_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38A0BDA1-912F-2D8A-9EF7-1E26A612F563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SINTOMASXHISTORIA_HC_FK" directorySegmentName="seg_0" id="C9CF45D8-C435-44E8-5997-50D9E2E26487">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:04 UTC</createdTime>
+<generatorID>60B05E19-9A51-5E8E-F378-FE878598CBDB</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<sourcePk>1C75DD42-AC7F-5EF5-EABB-EF01FA5C2BA3</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9D49DED8-670A-BEFB-564B-3EADE4B07A31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC3ABA7B-643E-7D5F-E739-876D5713BC03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

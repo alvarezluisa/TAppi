@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="bd" id="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" mainViewID="DDE7434F-0960-6961-B0A9-F0F0E3A32B89">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:35 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>bd.ddl</fileName>
+<pathName>C:\Users\alvar\Desktop\BD_TG</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

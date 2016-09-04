@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85998C2B-3963-B785-CF06-5246B3F5F493" name="NIVELURGENCIA">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>FB459637-EADA-FC11-2DAD-8BBDFF9E47CE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SINTOMA_IDSINTOMA" id="335878C3-0396-8330-1325-CA3094F0D913">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>9C841EF8-6644-3CD8-E69A-34AC67AA45FE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08224C66-964A-FC11-452E-0BA94DC5C89B" referredColumn="69E404FA-F813-B78B-5E34-17FF015A471D"/>
+</associations>
+</Column>
+<Column name="TRIAGE_IDTRIAGE" id="81C2201A-A209-D1D0-8766-479302A4E389">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>FBEE16BE-0EE4-D4F7-CB7C-B58A099D2547</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5028B39C-5290-F587-901B-78F213B6827B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C46823B9-CB7F-5606-6692-83EAA98FC8E1" referredColumn="C2A6B5FF-1408-36A3-5AA3-780CEC0B7D62"/>
+</associations>
+</Column>
+<Column name="PRESENCIA" id="8EF2ACBE-96F8-D0DF-6370-5D0DEFC25E55">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>1138B833-B151-394D-F454-25FCFAC8125D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>937D2FA5-B5A4-6199-A427-5B6B7EB3B26E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6F5FDC6-5B61-5D9B-0F86-BC23F80F7E26" name="NIVELURGENCIA_PK">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>2A3919D1-C11C-BE82-5037-5CDCBFE6CA9D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="335878C3-0396-8330-1325-CA3094F0D913"/>
+<colUsage columnID="81C2201A-A209-D1D0-8766-479302A4E389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55ABA861-FEF0-0575-D462-7709F21B45ED" name="NIVELURGENCIA_SINTOMA_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="335878C3-0396-8330-1325-CA3094F0D913"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81FF8C77-DCC2-29E9-C709-BE6F9AD6C193" name="NIVELURGENCIA_TRIAGE_FK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81C2201A-A209-D1D0-8766-479302A4E389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

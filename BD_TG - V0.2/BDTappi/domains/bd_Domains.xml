@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="bd_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_2" id="13B6C838-8BA5-F7E7-F546-7A760B61D362">
+         <createdBy>alvar</createdBy>
+         <createdTime>2016-09-04 02:28:45 UTC</createdTime>
+         <ownerDesignName>BDTappi</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>2</dataTypeSize>
+         <fileName>bd_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="5028B39C-5290-F587-901B-78F213B6827B">
+         <createdBy>alvar</createdBy>
+         <createdTime>2016-09-04 02:28:45 UTC</createdTime>
+         <ownerDesignName>BDTappi</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>bd_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_3 CHAR" id="7FBF0E45-8136-96B9-731C-CD7FF3C2936F">
+         <createdBy>alvar</createdBy>
+         <createdTime>2016-09-04 02:28:45 UTC</createdTime>
+         <ownerDesignName>BDTappi</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>3 CHAR</dataTypeSize>
+         <fileName>bd_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_2 CHAR" id="937D2FA5-B5A4-6199-A427-5B6B7EB3B26E">
+         <createdBy>alvar</createdBy>
+         <createdTime>2016-09-04 02:28:45 UTC</createdTime>
+         <ownerDesignName>BDTappi</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>2 CHAR</dataTypeSize>
+         <fileName>bd_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50 CHAR" id="BB30B3D1-032C-4567-85FE-6B8204F52563">
+         <createdBy>alvar</createdBy>
+         <createdTime>2016-09-04 02:28:45 UTC</createdTime>
+         <ownerDesignName>BDTappi</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50 CHAR</dataTypeSize>
+         <fileName>bd_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

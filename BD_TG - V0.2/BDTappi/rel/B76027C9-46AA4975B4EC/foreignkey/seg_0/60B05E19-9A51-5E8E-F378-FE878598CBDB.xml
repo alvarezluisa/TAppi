@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="60B05E19-9A51-5E8E-F378-FE878598CBDB" containerWithKeyObject="D475EF82-D6CD-DBF4-AD95-AD6F992D1C6A" localFKIndex="B114756B-0C3B-1705-C070-E9DD97BE2688" name="SINTOMASXHISTORIA_HC_FK">
+<sourceDDLFile>bd.ddl</sourceDDLFile>
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:28:45 UTC</createdTime>
+<ownerDesignName>BDTappi</ownerDesignName>
+<importedID>84232EA5-D730-41D2-527D-04871293B3AA</importedID>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>827BA7BD-3F98-7711-494A-A66759D96CE0</referredTableID>
+<keyObject>DEC0D01D-D6A1-BA02-69DD-FE591E5419C7</keyObject>
+<referredKeyID>DEC0D01D-D6A1-BA02-69DD-FE591E5419C7</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

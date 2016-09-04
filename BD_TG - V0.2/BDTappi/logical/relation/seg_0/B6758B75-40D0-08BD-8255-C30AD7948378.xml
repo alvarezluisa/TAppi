@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USUARIOXANTECEDENTE_U_FK" directorySegmentName="seg_0" id="B6758B75-40D0-08BD-8255-C30AD7948378">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:04 UTC</createdTime>
+<generatorID>1BADB1C7-0276-503C-8973-DAB04EC52F63</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<sourcePk>052DEAFF-639D-39C7-A82C-F81F9A28E0D0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>312A3259-B3AB-F3A5-F720-D31DFFF736E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA5AB200-7274-00BD-B41B-DC1BAC70C636</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4320371A-2C22-F02E-CAF4-9B8E541A065D" name="NIVELURGENCIAv1">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>85998C2B-3963-B785-CF06-5246B3F5F493</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SINTOMA IDSINTOMA" id="92A087EC-F071-3F40-DDEC-29F402F77AC6">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>DE657FB7-8799-3082-FA7A-0EE8C103C6FD</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<referedAttribute>39EFF6FB-3684-144A-870B-C1AEEC151DE6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0039FE10-F9EE-BB0A-A033-9A4803482737</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRIAGE IDTRIAGE" id="8026509D-F8EE-4B57-8D62-D468E456A083">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>124AAAE0-691B-580F-2DB3-69A78571D56A</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<referedAttribute>A7B6DAFF-53BB-B882-41F0-4D5BDC86D3BB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5028B39C-5290-F587-901B-78F213B6827B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRESENCIA" id="34CAAD36-0C82-8940-C029-B9F0796EEB51">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>8EF2ACBE-96F8-D0DF-6370-5D0DEFC25E55</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>937D2FA5-B5A4-6199-A427-5B6B7EB3B26E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C04E0C2-48D9-55FD-AC76-8F522AB896AD" name="NIVELURGENCIA PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>C6F5FDC6-5B61-5D9B-0F86-BC23F80F7E26</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92A087EC-F071-3F40-DDEC-29F402F77AC6</attributeRef>
+<attributeRef>8026509D-F8EE-4B57-8D62-D468E456A083</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

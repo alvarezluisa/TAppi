@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8110EDB8-60E5-A884-FDF8-1BC912ACA9A1" name="TRIAGEv1">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>4180170A-8388-C18A-19AE-6257024A0E91</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDTRIAGE" id="A7B6DAFF-53BB-B882-41F0-4D5BDC86D3BB">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>C2A6B5FF-1408-36A3-5AA3-780CEC0B7D62</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5028B39C-5290-F587-901B-78F213B6827B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIVELTRIAGE" id="788AAA1A-0A82-A69C-69B6-36E8DB0D6B48">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>83B08B36-5B33-5D08-E0BE-F8235D1583DB</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5028B39C-5290-F587-901B-78F213B6827B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DX" id="DF5DC636-A4E8-7C50-951B-4394EB91029C">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>30488C5C-7B77-A196-3589-7EC5204902C6</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BB30B3D1-032C-4567-85FE-6B8204F52563</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="216385FC-9220-CC44-94C8-532D95C19274" name="TRIAGE PK">
+<createdBy>alvar</createdBy>
+<createdTime>2016-09-04 02:29:03 UTC</createdTime>
+<generatorID>421A1A8F-56B3-2525-2CED-3C88C8842A34</generatorID>
+<ownerDesignName>BDTappi</ownerDesignName>
+<engineerTo>
+<item key="9A62E207-99F5-088E-9128-AF0BE6CD3F5C" value="true"/>
+<item key="B76027C9-1BEE-E135-7BA9-46AA4975B4EC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7B6DAFF-53BB-B882-41F0-4D5BDC86D3BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
